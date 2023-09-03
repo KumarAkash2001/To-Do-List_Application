@@ -10,9 +10,8 @@ function addTask() {
     listContainer.appendChild(li);
 
     let span = document.createElement("span");
-    span.innerHTML = "\u00d7"; // X symbol
+    span.innerHTML = "\u00d7"; //X symbol
     li.appendChild(span);
-   
   }
   inputBox.value = ""; // Clear the input box after adding the task
 }
